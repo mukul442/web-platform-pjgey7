@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+section{
+  max-width: 1330px;
+  margin: auto;
+}
+
+section h1{
+  text-align: center;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+}
+
+.filter{
+  margin: 20px 0;
+}
+
+.filter h5{
+  color: grey;
+}
+
+ul{
+  list-style-type: none;
+}
+
+ul li{
+  font-size: small;
+}
+
+.products{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.product{
+  width: 230px;
+  height: 380px;
+}
+
+.product:hover{
+  box-shadow: 2px 2px 5px 1px grey;
+}
+
+.product-img{
+  width: 100%;
+  height: 280px;
+  border: 1px solid green;
+}
+
+.product-details{
+  padding: 10px;
+}
+
+.description{
+  font-size: small;
+  font-weight: bolder;
+  color: gray;
+}
+
+.prices{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.prices span{
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.show-price{
+  font-size: small;
+  text-decoration: line-through;
+  color: grey;
+}
+
+.discount{
+  font-size: small;
+  color: orange;
+}
+
+select{
+  display: inline;
+  font-size: medium;
+  color: gray;
+}
+
+.pagination {
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}

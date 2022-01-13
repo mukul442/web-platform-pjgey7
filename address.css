@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+header ul{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+}
+
+header ul li{
+  margin-right: 40px;
+}
+
+header ul li a{
+  text-decoration: none;
+}
+
+section{
+  display: grid;
+  grid-template-columns: 2.4fr 1fr;
+  margin: 30px 0;
+}
+
+.address-col{
+  border: 1px solid red;
+  padding: 10px 10px 10px 80px;
+}
+
+.detail-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.detail-list h4{
+  text-transform: capitalize;
+
+}
+
+.detail-list button{
+  padding: 10px 15px;
+  text-transform: uppercase;
+  border: 0.1 black;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.add-new-add{
+  border: 1px dashed gray;
+  padding: 15px 12px;
+  text-transform: capitalize;
+  margin: 15px 0;
+}
+
+.add-new{
+  text-decoration: none;
+}
+
+.checkout-price{
+  padding: 10px 10px 10px;
+}
+
+.details-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+}
+
+.details-right{
+  text-align: end;
+}
+
+.details-left, .details-right{
+  line-height: 3;
+}
+
+.details-left h5, .details-right h5{
+  font-weight: normal;
+}
+
+.details-right a{
+  text-decoration: none;
+  font-size: small;
+  text-transform: capitalize;
+}
+
+.checkout-btn{
+  width: 500px;
+  margin-top: 20px;
+  padding: 10px 30px;
+  color: white;
+  background-color: palevioletred;
+  text-transform: uppercase;
+  border: 0;
+}
